@@ -16,7 +16,6 @@ The project utilizes the following technologies:
 ## File Structure
 
 - `index.html`: Main webpage.
-- `contactanos.html`: Contacs page file.
   
 ## Deployment
 
