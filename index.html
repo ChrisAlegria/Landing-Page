@@ -231,26 +231,26 @@
       </div>
     </footer>
 
-      <!-- Importacion de la libreria de Bootstrap JS -->
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Importacion de la libreria de Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-        <!-- Script que permite al formulario realizar validacion de la informacion -->
-        <script>
-          document.addEventListener('DOMContentLoaded', function () {
-          var forms = document.querySelectorAll('.needs-validation');
-  
-          Array.prototype.slice.call(forms).forEach(function (form) {
-              form.addEventListener('submit', function (event) {
-              if (!form.checkValidity()) {
-                  event.stopPropagation();
-                  event.preventDefault();
-              }
-  
-              form.classList.add('was-validated');
-              }, false);
-          });
-          });
-         </script>
+      <!-- Script que permite al formulario realizar validacion de la informacion -->
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        var forms = document.querySelectorAll('.needs-validation');
+
+        Array.prototype.slice.call(forms).forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+                event.stopPropagation();
+                event.preventDefault();
+            }
+
+            form.classList.add('was-validated');
+            }, false);
+        });
+        });
+    </script>
   </body>
 </html>
