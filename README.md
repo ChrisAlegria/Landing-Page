@@ -1,4 +1,4 @@
-# Landing-Page
+# Landing Page
 
 This project is a website for Nao Curse, developed using HTML and Bootstrap.
 
